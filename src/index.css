@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url("./assets/font/Helvetica.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url("./assets/font/helvetica-255/Helvetica-Bold.ttf") format("truetype");
+  font-weight: 700; /* 👈 Assign 700 to the bold file */
+  font-style: normal;
+}
+
+body {
+  font-family: 'MyCustomFont', sans-serif;
+}
+@layer utilities{
+.gradient-hero {
+  background: radial-gradient(
+    circle at center,
+    #2e334a,
+    #282f42 70%,
+    #1e2333
+  );
+}
+}
+@keyframes float {
+  0%, 100% {
+    transform: translateY(4px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+.animate-float {
+  animation: float 2s ease-in-out infinite;
+}

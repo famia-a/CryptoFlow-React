@@ -1,16 +1,69 @@
-# React + Vite
+# CryptoFlow Landing Page 🚀
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive landing page clone inspired by CryptoFlow, built as a frontend practice project using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+The project focuses on recreating a SaaS-style landing page with reusable React components, responsive design, smooth scrolling, pricing sections, and an email subscription area.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- Responsive landing page design
+- Hero section
+- Features section
+- Advantages / benefits section
+- Pricing section
+- Monthly and yearly pricing toggle
+- FAQ section
+- Email subscription section
+- Smooth scrolling navigation
+- Interactive buttons
+- Responsive navbar
+- Reusable React components
+- Mobile, tablet, and desktop layouts
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- Tailwind CSS
+- JavaScript
+- HTML
+- CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 What I Learned
+
+I built this project to practice React and Tailwind CSS by creating a complete website from start to finish.
+
+During the project, I practiced:
+
+- Creating reusable React components
+- Passing props between components
+- Using `useState`
+- Using `useEffect`
+- Handling user interactions
+- Conditional rendering
+- Rendering content using `.map()`
+- Creating reusable UI elements
+- Smooth scrolling between sections
+- Responsive design with Tailwind CSS
+- Creating pricing components
+- Creating monthly/yearly pricing functionality
+- Organizing a React project into components
+- Building a complete landing page layout
+
+## 📂 Project Structure
+
+```text
+src/
+├── components/
+│   ├── Navbar.jsx
+│   ├── Hero.jsx
+│   ├── Features.jsx
+│   ├── Advantages.jsx
+│   ├── Pricing.jsx
+│   ├── FAQ.jsx
+│   ├── Subscribe.jsx
+│   └── Footer.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
